@@ -1,0 +1,52 @@
+{
+  "files": {
+    "path": "files",
+    "directories": ["archive", "forms", "documents"],
+    "files": ["empty_file (copy).txt-----.pdf", "empty_file (another copy).pdf", "empty_file.pdf"]
+  },
+  "files_archive": {
+    "path": "files/archive",
+    "directories": ["work-credit-submissions", "receipt-credit-submissions", "meeting-minutes"],
+    "files": ["empty_file.pdf"]
+  },
+  "files_archive_work-credit-submissions": {
+    "path": "files/archive/work-credit-submissions",
+    "directories": ["individual-resident-work"],
+    "files": ["all-resident-work-2018-03.pdf", "all-resident-work-2018-02.pdf", "all-resident-work-2018-01.pdf", "all-resident-work-2017-10.pdf", "all-resident-work-2017-09.pdf", "all-resident-work-2017-11.pdf", "all-resident-work-2017-12.pdf", "all-resident-work-2017-08.pdf", "all-resident-work-2018-04.pdf", "all-resident-work-2017-06.pdf", "all-resident-work-2017-07.pdf"]
+  },
+  "files_archive_work-credit-submissions_individual-resident-work": {
+    "path": "files/archive/work-credit-submissions/individual-resident-work",
+    "directories": [],
+    "files": ["resident-work-Andrew_Tuttle-2017-06.pdf", "resident-work-James Tuttle-2017-12.pdf", "resident-work-Sammie_Tuttle-2017-07.pdf", "resident-work-Dave B-2017-09.pdf", "resident-work-Lauren_Levenchuck-2017-07.pdf", "resident-work-Corey Steinke-2018-04.pdf", "resident-work-Jonina Sims-2017-08.pdf", "resident-work-Samantha Johnson-2017-11-30.pdf", "resident-work-Dave B-2017-12.pdf", "resident-work-Jonina Sims-2017-12.pdf", "resident-work-Greg W.-2018-04.pdf", "resident-work-Jonina Sims-2017-11-30.pdf", "resident-work-Joann_Beatty-2017-06.pdf", "resident-work-Corey Steinke-2018-01.pdf", "resident-work-John(Jay_Sea)Campbell-2017-07.pdf", "resident-work-Jake Sims-2017-08.pdf", "resident-work-Dave_B-2017-07.pdf", "resident-work-Jonina_Sims-2017-07.pdf", "resident-work-Jake Sims-2017-12.pdf", "resident-work-Bryan Z-2017-12.pdf", "resident-work-Elliott_Tuttle-2017-06.pdf", "resident-work-Jacklyn Brooke Hobby-2017-11-30.pdf", "resident-work-Andrew_Tuttle-2017-07.pdf", "resident-work-Ashley Wieck-2017-12.pdf", "resident-work-John(Jay_Sea)Campbell-2017-06.pdf", "resident-work-Sammie Tuttle-2018-01.pdf", "resident-work-Dave_B-2017-06.pdf", "resident-work-Corey_Steinke-2017-06.pdf", "resident-work-Brian_B-2017-07.pdf", "resident-work-Greg_W.-2017-06.pdf", "resident-work-Greg_W.-2017-07.pdf", "resident-work-Brian B-2018-03.pdf", "resident-work-Ashley Wieck-2018-03.pdf", "resident-work-James Tuttle-2017-09.pdf", "resident-work-Jonina Sims-2018-03.pdf", "resident-work-Jonina_Sims-2017-06.pdf", "resident-work-Dale_C-2017-07.pdf", "resident-work-Jasen_Hill-2017-07.pdf", "resident-work-Ethan-2017-06.pdf", "resident-work-Owl_Morrison-2017-07.pdf", "resident-work-Jacklyn Brooke Hobby-2018-01.pdf", "resident-work-Dale_C-2017-06.pdf", "resident-work-Bryan_Z-2017-07.pdf", "resident-work-Greg W.-2017-12.pdf", "resident-work-Jasen_Hill-2017-06.pdf", "resident-work-Greg W.-2018-03.pdf", "resident-work-Kerry White-2018-04.pdf", "resident-work-William Kruckeburg-2017-12.pdf", "resident-work-DJ-2017-06.pdf", "resident-work-Brian_B-2017-06.pdf", "resident-work-Lauren_Levenchuck-2017-06.pdf", "resident-work-Brian_Z-2017-06.pdf", "resident-work-Thrice Siatta-2017-11-30.pdf", "resident-work-Dave B-2018-04.pdf", "resident-work-Brian B-2017-12.pdf", "resident-work-Oliver Kruckeburg-2017-12.pdf", "resident-work-Bryan Z-2018-04.pdf", "resident-work-Corey Steinke-2017-11.pdf", "resident-work-Sammie_Tuttle-2017-06.pdf", "resident-work-Camilo Garcia-2018-02.pdf", "resident-work-Dale C-2017-11-30.pdf", "resident-work-Ayla Ricci-2018-04.pdf", "resident-work-Dale C-2017-08-.pdf", "resident-work-Rick_Levenchuck-2017-07.pdf", "resident-work-Rick_Levenchuck-2017-06.pdf", "resident-work-Zeb-2017-06.pdf", "resident-work-Helen_Hoffman-2017-07.pdf", "resident-work-Jonina Sims-2017-11.pdf", "resident-work-Jonina Sims-2018-01.pdf", "resident-work-Zeb-2017-07.pdf", "resident-work-Samantha_Johnson-2017-06.pdf", "resident-work-Ron Lewis-2017-12.pdf", "resident-work-Jake Sims-2018-01.pdf", "resident-work-Dave B-2017-11.pdf", "resident-work-Oliver Kruckeburg-2018-01.pdf", "resident-work-Dale C-2018-04.pdf", "resident-work-Sammie Tuttle-2018-04.pdf", "resident-work-Jonina Sims-2017-09.pdf"]
+  },
+  "files_archive_receipt-credit-submissions": {
+    "path": "files/archive/receipt-credit-submissions",
+    "directories": [],
+    "files": ["2018-08-31-Jacklyn Brooke Hobby-receipt-1535754547.pdf", "2017-11-13-Jasen Hill-receipt-1510618988.pdf", "2018-08-31-Jacklyn Brooke Hobby-receipt-1535754494.pdf", "2018-08-31-Jacklyn Brooke Hobby-receipt-1535754617.pdf", "2018-09-24-Kerry White-receipt-1537810074.pdf", "2018-08-28-Kerry White-receipt-1535501785.pdf", "2018-09-20-Kerry White-receipt-1537465797.pdf"]
+  },
+  "files_archive_meeting-minutes": {
+    "path": "files/archive/meeting-minutes",
+    "directories": ["2017", "2016"],
+    "files": ["03-20-2018-gb-meeting-minutes.pdf", "02-20-2018-gb-meeting-minutes.pdf", "01-16-2018-gb-meeting-minutes.pdf", "04-17-2018-gb-meeting-minutes.pdf", "05-15-2018-gb-meeting-minutes.pdf"]
+  },
+  "files_archive_meeting-minutes_2017": {
+    "path": "files/archive/meeting-minutes/2017",
+    "directories": [],
+    "files": ["08-22-2017-gb-meeting-minutes.pdf", "01-31-2017-gb-meeting-minutes.pdf", "01-03-2017-gb-meeting-minutes.pdf", "10-24-2017-gb-meeting-minutes.pdf", "04-25-2017-gb-meeting-minutes.pdf", "11-14-2017-gb-meeting-minutes.pdf", "03-28-2017-gb-meeting-minutes.pdf", "06-27-2017-gb-meeting-minutes.pdf", "07-25-2017-gb-meeting-minutes.pdf", "09-19-2017-gb-meeting-minutes.pdf", "02-28-2017-gb-meeting-minutes.pdf", "12-19-2017-gb-meeting-minutes.pdf", "05-23-2017-gb-meeting-minutes.pdf"]
+  },
+  "files_archive_meeting-minutes_2016": {
+    "path": "files/archive/meeting-minutes/2016",
+    "directories": [],
+    "files": ["04-07-2016-gb-meeting-minutes.pdf", "07-07-2016-gb-meeting-minutes.pdf", "05-10-2016-gb-meeting-minutes.pdf", "12-09-2016-gb-meeting-minutes.pdf", "08-02-2016-gb-meeting-minutes.pdf", "02-04-2016-gb-meeting-minutes.pdf", "03-08-2016-gb-meeting-minutes.pdf", "01-17-2016-gb-meeting-minutes.pdf", "06-07-2016-gb-meeting-minutes.pdf", "08-30-2016-gb-meeting-minutes.pdf"]
+  },
+  "files_forms": {
+    "path": "files/forms",
+    "directories": [],
+    "files": ["cabin-hold-form.pdf", "work-form.pdf", "gb-meeting-note-template.pdf"]
+  },
+  "files_documents": {
+    "path": "files/documents",
+    "directories": [],
+    "files": ["gb-resident-agreement.pdf", "marsalom-inc-bylaws-02-28-2017.pdf", "gb-policies.pdf", "gb-resident-agreement(previous).pdf"]
+  }
+}

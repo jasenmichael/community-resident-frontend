@@ -10,7 +10,7 @@ const createStore = () => {
       id: null,
       uuid: null,
       token: null,
-      directories: {}
+      directories: {},
     }),
     mutations: {
       login (state) {
@@ -19,14 +19,18 @@ const createStore = () => {
         state.token = localStorage.getItem('token')
       },
       logout (state) {
-        state.id = ''
-        state.uuid = ''
-        state.token = ''
+        state.id = null
+        state.uuid = null
+        state.token = null
+        state.directories = {}
+        // localStorage.removeItem('vuex')
+        localStorage.clear()
       },
       loadFiles (state, payload) {
         let dir = Object.keys(payload)[0]
         state.directories[dir] = payload[Object.keys(payload)[0]]
-      }
+        return state.directories
+      },
     }
   })
 }

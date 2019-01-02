@@ -1,17 +1,19 @@
 const pkg = require('./package')
+const {getRoutes} = require('./generate-routes/index.js')
 
 module.exports = {
   mode: 'spa',
 
   router: {
-    base: '/new-gb-resident/'
+    // base: '/new-gb-resident/'
+    base: `/${pkg.config.baseDIR}/`
   },
-
-  /*
-  ** Headers of the page
-  */
+  server: {
+    port: 3000,
+    host: '0.0.0.0'
+  },
   head: {
-    title: pkg.name,
+    title: "GB Resident",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,49 +24,40 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
-
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-
-  /*
-  ** Global CSS
-  */
+  loading: {
+    color: 'primary',
+    height: '8px'
+  },
+  // loading: '~/components/LoadingComponent.vue',
   css: [
     '~/assets/style/app.styl'
   ],
-
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
     '@/plugins/vuetify',
     // { src: '~/plugins/vuex-persist', ssr: false }
   ],
-
-  /*
-  ** Nuxt.js modules
-  */
   modules: [
-    // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    ['nuxt-material-design-icons']
+    // '@nuxtjs/proxy',
+    ['nuxt-material-design-icons'],
+    'nuxt-robots-module',
   ],
-  /*
-  ** Axios module configuration
-  */
+  'nuxt-robots-module': [
+    {
+      UserAgent: '*',
+      Disallow: '/',
+    },
+  ],
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+    // baseURL: 'https://10.14.72.245/new-gb-resident/',
+    baseURL: `${pkg.config.devAPI}/${pkg.config.baseDIR}`,
+    https: true,
+    credentials: false,
   },
-
-  /*
-  ** Build configuration
-  */
+  generate: {
+    routes: getRoutes
+  },
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
